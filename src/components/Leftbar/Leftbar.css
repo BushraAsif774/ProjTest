@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+.left{
+    background: rgba(22, 22, 35, 0.9);
+    backdrop-filter: blur(12.5px);
+    /* width: 30%; */
+
+    height: 1080px;
+/* width: 25%; */
+padding: 2rem;
+
+
+
+
+
+}
+.left-togg{
+    background: rgba(22, 22, 35, 0.9);
+    backdrop-filter: blur(12.5px);
+    width: 30%;
+
+    height: 1080px;
+/* width: 25%; */
+
+
+}
+.logorow{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.vaultpassheading{
+    font-family: 'Meedori Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+
+color: #FFFFFF;
+align-items: center;
+display: flex;
+align-self: center;
+}
+.imgvault{
+    height: 66.65859985351562px;
+width: 54.240264892578125px;
+left: 0px;
+top: 0.0059814453125px;
+border-radius: 0px;
+
+}
+.vaulttext >span{
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+/* identical to box height */
+
+
+color: #FFFFFF;
+font-family: 'Jost', sans-serif;
+
+}
+.insidebond{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #FFFFFF;
+padding-left: 2.7rem;
+}
+.bonddiscount{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+padding-left: 2.7rem;
+
+
+
+color: #6A6971;
+
+}
+.iconsbottom{
+    display: flex;
+    justify-content: space-around;
+    
+}
