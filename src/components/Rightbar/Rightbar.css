@@ -2,19 +2,32 @@
 .right{
    
     width: 100%;
-    height: 1080px;
+    /* height: 1080px; */
+    /* overflow-y: auto; */
    
    
 }
+
+/* .right::-webkit-scrollbar {
+    display: none;
+
+}
+
+.rightbg::-webkit-scrollbar {
+    display: none;
+
+} */
+
 .rightbg{
     background-image: url(../../images/bigstock-Astronaut-in-suit-against-blac-434152580\ 1.png);
-    background-position: center;
+    /* background-position: center; */
+  
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
     width: auto;
     height: inherit;
-    padding: 2rem;
+    padding: 1.5rem;
 
     /* overflow: scroll;
   
@@ -33,6 +46,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 38px;
 /* identical to box height */
+border: none;
 
 text-align: center;
 
@@ -60,7 +74,7 @@ padding: 1rem;
 
 }
 .cardcontainer{
-    padding: 2.7rem 5rem 2.7rem 5rem ;
+    padding: 1.3rem 5rem 0 5rem ;
     /* padding: 5rem; */
 }
 .epocheading{
@@ -113,18 +127,35 @@ text-align: center;
 color: #FFFFFF;
 }
 @media screen and (min-width: 1024px) and (max-width: 1440px){
-
-}
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .btnpass, .btnconnect, .cardtext{
-        font-size: 16px;
-    }
-    .cardprice, .epocheading{
-        font-size: 20px;
-    }
     .cardcontainer{
         padding: 1rem 2rem 1rem 2rem ;
 
+    }
+    .cardprice, .epocheading{
+        font-size: 24px;
+    }
+    .rightbg{
+     
+        background-position: inherit;
+        background-size: cover;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* .btnpass, .btnconnect, .cardtext{
+        font-size: 18px;
+    }
+    .cardprice, .epocheading{
+        font-size: 22px;
+    } */
+    .cardcontainer{
+        padding:0 ;
+
+    }
+    .rightbg{
+     
+        background-position: center;
+        background-size: cover;
     }
     
 
@@ -132,15 +163,25 @@ color: #FFFFFF;
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .btnpass, .btnconnect, .cardtext{
-        font-size: 14px;
+        font-size: 17px;
+        line-height: 20px;
     }
   
     .cardprice, .epocheading{
-        font-size: 15px;
+        font-size: 19px;
+        line-height: 18px;
     }
     .cardcontainer{
-        padding: 1rem 2rem 1rem 2rem ;
+        padding: 0 ;
 
+    }
+    .btnpass, .btnconnect{
+        padding: 0.3rem;
+    }
+    .rightbg{
+        padding: 0.6rem;
+        background-position: center;
+        background-size: cover;
     }
 
 }

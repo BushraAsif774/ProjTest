@@ -13,7 +13,7 @@ const Rightbar = () => {
 
         <h1 className='epocheading'>EPOCH STAKING</h1>
         <Container className='cardcontainer' >
-        <Row className='px-md-5 pt-3'>
+        <Row className='px-lg-5 pt-3'>
           <Col md={6} sm={6} xs={6} >
             <div className='mycard'>
               <p className='cardtext'>PASS Price</p>
@@ -23,21 +23,21 @@ const Rightbar = () => {
           </Col>
           <Col md={6} sm={6} xs={6} >
           <div className='mycard'>
-              <Row className='mb-3 px-5' >
-                <Col className='cardtext'>APR</Col>
-                <Col className='cardtext'>/</Col>
-                <Col className='cardtext'>EPR</Col>
+              <Row className='mb-3 px-lg-5' >
+                <Col xs={4} className='cardtext'>APR</Col>
+                <Col xs={4} className='cardtext'>/</Col>
+                <Col xs={4} className='cardtext'>EPR</Col>
               </Row>
-              <Row className='mb-3 px-5'>
-                <Col className='cardprice'>3280%</Col>
-                <Col className='cardprice'>3%</Col>
+              <Row className='mb-3 px-lg-5'>
+                <Col xs={6} className='cardprice px-md-0 ' >3280%</Col>
+                <Col xs={6} className='cardprice'>3%</Col>
                
               </Row>
 
             </div>
           </Col>
         </Row>
-        <Row className='px-md-5 pt-3'>
+        <Row className='px-lg-5 pt-3'>
           <Col md={6} sm={6} xs={6} >
             <div className='mycard'>
               <p className='cardtext'>Market Cap</p>
@@ -47,13 +47,13 @@ const Rightbar = () => {
           </Col>
           <Col md={6} sm={6} xs={6} >
           <div className='mycard'>
-              <p className='cardtext'>Total Value Locked</p>
+              <p className='cardtext'>Total Locked</p>
               <p className='cardprice'>$1520.33</p>
 
             </div>
           </Col>
         </Row>
-        <Row className='px-md-5 pt-3'>
+        <Row className='px-lg-5 pt-3'>
           <Col md={6} sm={6} xs={6} >
             <div className='mycard'>
               <p className='cardtext'>Treasury Balance</p>
@@ -69,7 +69,7 @@ const Rightbar = () => {
             </div>
           </Col>
         </Row>
-        <Row className='px-md-5 pt-3'>
+        <Row className='px-lg-5 pt-3'>
           <Col md={6} sm={6} xs={6} >
             <div className='mycard'>
               <p className='cardtext'>Backing per PASS</p>

@@ -32,13 +32,13 @@ const Leftbar = () => {
   };
   return (
     <div className="left">
-      <Container>
+      <Container className="p-0">
         <Row className="logorow">
-          <Col lg={2} md={2} sm className="d-flex justify-content-center">
+          <Col  xs={2} className="d-flex align-content-start" >
             {" "}
             <img className="imgvault" src={Logo} alt="" srcset="" />{" "}
           </Col>
-          <Col lg={10} md={10} sm>
+          <Col  xs={10} className="d-flex justify-content-xs-center">
             <h1 className="vaultpassheading">VAULT PASS</h1>
           </Col>
         </Row>
@@ -91,8 +91,8 @@ const Leftbar = () => {
             <ListItemButton >
             <Container>
               <Row className="insidebond">
-                <Col md={8}>XIV-BNB LP</Col>
-                <Col md={4}>-16.28%</Col>
+                <Col xs={8}>XIV BNB LP</Col>
+                <Col xs={4}>-16.28%</Col>
                 
               </Row>
             </Container>
@@ -100,8 +100,8 @@ const Leftbar = () => {
             <ListItemButton >
             <Container>
               <Row className="insidebond">
-                <Col md={8}>PASS-BNB LP</Col>
-                <Col md={4}>-16.28%</Col>
+                <Col xs={8}>PASS LP</Col>
+                <Col xs={4}>-16.28%</Col>
                 
               </Row>
             </Container>
@@ -109,8 +109,8 @@ const Leftbar = () => {
             <ListItemButton >
             <Container>
               <Row className="insidebond">
-                <Col md={8}>XIV</Col>
-                <Col md={4}>-16.28%</Col>
+                <Col xs={8}>XIV</Col>
+                <Col xs={4}>-16.28%</Col>
                 
               </Row>
             </Container>
@@ -118,8 +118,8 @@ const Leftbar = () => {
             <ListItemButton >
             <Container>
               <Row className="insidebond">
-                <Col md={8}>BNB</Col>
-                <Col md={4}>-16.28%</Col>
+                <Col xs={8}>BNB</Col>
+                <Col xs={4}>-16.28%</Col>
                 
               </Row>
             </Container>
@@ -127,8 +127,8 @@ const Leftbar = () => {
             <ListItemButton >
             <Container>
               <Row className="insidebond">
-                <Col md={8}>BUXD</Col>
-                <Col md={4}>-16.28%</Col>
+                <Col xs={8}>BUXD</Col>
+                <Col xs={4}>-16.28%</Col>
                 
               </Row>
             </Container>
